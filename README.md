@@ -15,7 +15,8 @@ Also, I've implemented JSON(JavaScript Object Notation), that is a data format u
 8. Exception Handling: In case netwoek breaks occur during the process, the method catches these exceptions and prints the error. Finally, the method returns the parsed JSON object to the caller. The caller can then work with this JSON object to extract specific weather-related information, such as temperature, humidity, and wind speed.
 
 The MainController class where JavaFx applications' text, textfield and button features connects with the code part.
-1.. Initialization: The class initializes the JavaFX controller. It defines JavaFX components using the @FXML annotation, such as a TextField for input and a Text element to display weather information.
+
+1. Initialization: The class initializes the JavaFX controller. It defines JavaFX components using the @FXML annotation, such as a TextField for input and a Text element to display weather information.
 2. API Key and APIConnector: It stores the OpenWeatherMap API key and creates an instance of the APIConnector class, which is responsible for making requests to the OpenWeatherMap API.
 3. getWeatherData Method (used by Button Press): When a button is pressed in the user interface (get weather data), the getWeatherData method is called.
 It retrieves the user's input, typically a city name, from the TextField.
@@ -28,4 +29,7 @@ It checks if the main and wind objects in the JSON data are present. If so, it e
 8. Display Weather Information: The method updates the Text element in the user interface with the temperature in Celsius, wind speed, and humidity (if available).
 9. Error Handling: If the data is not available or if there's an issue with the API request, it displays an error message.
 
-And at the end, in HelloApplication, by running the application's code, we can see the window with all informations. 
+And at the end, in HelloApplication, by running the application's code, we can see the window with all informations.
+
+![image](https://github.com/zhaniyazh/WeatherForecast/assets/118889073/aedd6135-6d31-490c-b1ed-61baa6c188d0)
+
