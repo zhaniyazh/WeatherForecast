@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="363.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.weatherforecast.PrimaryController">
+   <children>
+      <ImageView fitHeight="544.0" fitWidth="363.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@picture1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="63.0" layoutY="33.0" prefHeight="34.0" prefWidth="237.0" text="Weather Forecast">
+         <font>
+            <Font name="Bookman Old Style Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="94.0" layoutY="142.0" mnemonicParsing="false" onAction="#getWeatherData" prefHeight="12.0" prefWidth="172.0" text="get weather data">
+         <font>
+            <Font name="Calibri" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="cityInput" layoutX="70.0" layoutY="90.0" prefHeight="34.0" prefWidth="219.0" promptText="Enter City" />
+      <TextField layoutX="70.0" layoutY="199.0" prefHeight="100.0" prefWidth="219.0" />
+      <Text fx:id="weatherText" layoutX="71.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="here you see the information" textAlignment="CENTER" wrappingWidth="219.19999999999993">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font></Text>
+   </children>
+</AnchorPane>
