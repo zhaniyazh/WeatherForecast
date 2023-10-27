@@ -31,5 +31,11 @@ It checks if the main and wind objects in the JSON data are present. If so, it e
 
 And at the end, in HelloApplication, by running the application's code, we can see the window with all informations.
 
+How it looks
+
 ![image](https://github.com/zhaniyazh/WeatherForecast/assets/118889073/aedd6135-6d31-490c-b1ed-61baa6c188d0)
+
+![image](https://github.com/zhaniyazh/WeatherForecast/assets/118889073/fdc20058-4725-40ec-b893-b40a04e2eddf)
+
+![image](https://github.com/zhaniyazh/WeatherForecast/assets/118889073/0e79e9cc-cc4b-4563-9d41-6f5bbabd1370)
 
